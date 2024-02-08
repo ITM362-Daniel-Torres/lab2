@@ -8,6 +8,20 @@
   <link rel="stylesheet" media="screen" href="css/screen.css" />
 </head>
 <body>
-
+    <form  method="POST" action="#null" autocomplete="on">
+        <fieldset>
+          <legend>Please Complete the User Form</legend>
+          <div>
+             <label>Email Address: <input type="text" name="email_address" placeholder="Enter your email address" required></label>
+          </div>
+          <div>
+            <label>Phone Number: <input type="tel" name="phone" placeholder="Enter your phone number" required></label>
+          </div>
+          <div>
+            <label>Date of Birth: <input type="date" name="birthday" required></label>
+          </div>
+        </fieldset>
+        <input type="submit" value="Submit">
+      </form>
 </body>
 </html>
